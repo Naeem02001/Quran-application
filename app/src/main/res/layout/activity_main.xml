@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FAFAFA"
+    android:padding="24dp">
+
+    <Button
+        android:id="@+id/btnIndex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="عرض السور"
+        android:layout_margin="8dp" />
+
+    <Button
+        android:id="@+id/btnFav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="دعاء ختم المصحف"
+        android:layout_margin="8dp" />
+
+    <Button
+        android:id="@+id/btnSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="الإعدادات"
+        android:layout_margin="8dp" />
+
+    <Button
+        android:id="@+id/btnAbout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="حول التطبيق"
+        android:layout_margin="8dp" />
+
+</LinearLayout>
